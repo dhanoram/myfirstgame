@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Assingment3</title>
+		<link rel = "stylesheet" href ="mystyle.css" type ="text/css">
+		<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		--><script src ="jquery.js"></script>
+	</head>
+	<body onload = "setup()">
+	
+		<div class = 'content'>
+			<div class = 'centerfix'>
+				<div class = 'scoreboard'>
+				    <div class="game">
+					  <p><a href="index.html" id="restart">Restart</a></p>
+					</div>
+					<div class = 'clear'>
+						<span id = 'clear'>Clear: 0</span>
+					</div>
+					<div class = 'score'>
+						<span id = 'score'></span>
+					</div>
+					<div class = 'turns'>
+						<span id = 'turns'>Turn: 0</span>	
+					</div>
+					
+				</div>
+				<div class = 'TheBox'>
+					<table id = 'game'cellspacing="15">
+					
+						<tr >
+							<td id = '00' onclick = 'show(this)'></td>
+							<td id = '01' onclick = 'show(this)'></td>
+							<td id = '02' onclick = 'show(this)'></td>
+							<td id = '03' onclick = 'show(this)'></td>
+						</tr>
+						<tr >
+							<td id = '10' onclick = 'show(this)'></td>
+							<td id = '11' onclick = 'show(this)'></td>
+							<td id = '12' onclick = 'show(this)'></td>
+							<td id = '13' onclick = 'show(this)'></td>
+						</tr>
+						<tr >
+							<td id = '20' onclick = 'show(this)'></td>
+							<td id = '21' onclick = 'show(this)'></td>
+							<td id = '22' onclick = 'show(this)'></td>
+							<td id = '23' onclick = 'show(this)'></td>
+						</tr>				
+						<tr >
+							<td id = '30' onclick = 'show(this)'></td>
+							<td id = '31' onclick = 'show(this)'></td>
+							<td id = '32' onclick = 'show(this)'></td>
+							<td id = '33' onclick = 'show(this)'></td>
+						</TR>
+					
+					<table>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
